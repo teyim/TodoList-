@@ -1,0 +1,39 @@
+body {
+  font-family: quicksand;
+}
+
+header {
+  background-color: #171941;
+  min-height: 25vh;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background-color: rgba(24, 23, 23, 0.171);
+}
+
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+.delete-image:hover {
+  background-color: rgba(241, 53, 53, 0.74);
+}
+
+.checkedimageoff {
+  display: none;
+}
