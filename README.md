@@ -1,5 +1,5 @@
 # TodoList-
-Basic totlist with bootstrap and js
+Basic todolist with bootstrap and js
 #-------------how to us-----------------
 click add ,to add a list Item--
 double click on a list item to mark as completed--
